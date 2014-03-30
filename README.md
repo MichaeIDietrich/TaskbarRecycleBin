@@ -1,4 +1,4 @@
-TaskbarRecycleBin
+Taskbar Recycle Bin
 =================
 
 This project brings a often requested feature to Windows. It adds a recycle bin to the taskbar 

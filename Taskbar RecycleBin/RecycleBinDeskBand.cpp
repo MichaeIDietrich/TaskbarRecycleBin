@@ -292,7 +292,6 @@ HRESULT STDMETHODCALLTYPE CRecycleBinDeskBand::GetBandInfo(
 
     if (pdbi->dwMask & DBIM_MINSIZE)
     {
-        //pdbi->ptMinSize = m_wndCalendar.CalcIdealSize();
         pdbi->ptMinSize.x = m_size.cx;
         pdbi->ptMinSize.y = m_size.cy;
     }
@@ -312,7 +311,6 @@ HRESULT STDMETHODCALLTYPE CRecycleBinDeskBand::GetBandInfo(
 
     if (pdbi->dwMask & DBIM_ACTUAL)
     {
-        //pdbi->ptActual = m_wndCalendar.CalcIdealSize();
         pdbi->ptActual.x = m_size.cx;
         pdbi->ptActual.y = m_size.cy;
 

@@ -6,3 +6,7 @@ so the user does not need a recycle bin icon on the desktop.
 
 
 *** WORK IN PROGRESS ***
+
+Current status:
+
+![Preview Image](../gh-pages/preview1.png)
